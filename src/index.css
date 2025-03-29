@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-custom-1: #f0fff8;
+  --color-custom-2: #edfff8;
+  --color-custom-3: #c4ffe9;
+  --color-custom-4: #9afcdc;
+  --color-custom-5: #6cf0c8;
+  --color-custom-6: #42e2b8;
+  --color-custom-7: #2dbd9b;
+  --color-custom-8: #1d967e;
+  --color-custom-9: #107060;
+  --color-custom-10: #0a4a41;
+
+  --color-accent-1: #C6C013;
+
+  --color-accent-1-1: #fcffe6;
+  --color-accent-1-2: #f3fab9;
+  --color-accent-1-3: #e7ed8a;
+  --color-accent-1-4: #dce05e;
+  --color-accent-1-5: #d4d437;
+  --color-accent-1-6: #c6c013;
+  --color-accent-1-7: #a19608;
+  --color-accent-1-8: #7a6e00;
+  --color-accent-1-9: #544900;
+  --color-accent-1-10: #2e2600;
+
+  --color-accent-2-1 : #fff7e6;
+  --color-accent-2-2 : #ffe9bd;
+  --color-accent-2-3 : #ffd894;
+  --color-accent-2-4 : #ffc46b;
+  --color-accent-2-5 : #fcab42;
+  --color-accent-2-6 : #ef8a17;
+  --color-accent-2-7 : #c96a0a;
+  --color-accent-2-8 : #a34c00;
+  --color-accent-2-9 : #7d3600;
+  --color-accent-2-10 : #572300;
+}
+
+@layer base {
+  @variant dark {
+    --color-custom-1: #152824;
+    --color-custom-2: #1a3e36;
+    --color-custom-3: #225245;
+    --color-custom-4: #29715e;
+    --color-custom-5: #329a7f;
+    --color-custom-6: #3bc39f;
+    --color-custom-7: #63dab6;
+    --color-custom-8: #93f0d2;
+    --color-custom-9: #bff8e3;
+    --color-custom-10: #e9faf3;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.slider div {
+  transition: all 2s;
+  max-height: 100%;
+  max-width: 100%;  
+  flex: 0 0 100%;
+}

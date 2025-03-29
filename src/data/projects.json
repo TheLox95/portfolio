@@ -1,0 +1,38 @@
+[
+    {
+        "title": "HMO Checker",
+        "stack": ["NodeJS", "NextJS", "Fastify", "Sass"],
+        "description": "Build a website that let user search real state in the UK, save result, create reports, download PDF of it, the website includes a subscription system where user can subscribe to one of several package to get full access to all the features available on the website",
+        "images": ["/img/hmo1.png", "/img/hmo2.png", "/img/hmo3.png"]
+    },
+    {
+        "title": "Mobile App",
+        "stack": ["React Native", "Express", "NodeJS"],
+        "description": "Developed a multiplatform mobile app social network with React Native for football coaches and players in the UK to make it possible for them to post photos and videos of training sessions, search for coaches, book training sessions and manage payments with Paypal for these.",
+        "images": ["/img/nl1.png", "/img/nl2.png", "/img/nl3.png", "/img/nl4.png"]
+    },
+    {
+        "title": "Logist Compare",
+        "stack": ["NodeJS", "Express", "Angular", "Bootstrap"],
+        "description": "Completed the development of a website for the listing and budget calculation of warehouses in the UK. The website allowed search, quota request and booking.",
+        "images": ["/img/logistcompare1.png", "/img/logistcompare2.png", "/img/logistcompare3.png"]
+    },
+    {
+        "title": "Iris App",
+        "stack": ["ReactJS", "Express", "MaterialUI"],
+        "description": "Worked in the development of a web app for the management of and display to users of news articles pulled from an external API. This app included full customization of the look and behavior of the website, possible from app itself.",
+        "images": ["/img/iris1.png"]
+    },
+    {
+        "title": "Isan",
+        "stack": ["ReactJS", "Sass", "ExpressJS"],
+        "description": "Worked on the development of an app that let users track their health information pulled from an external service that let users track blood tests, heart rate tests and so. Continuously improve the looks of the app making it usable on desktop, tablet and mobile plus constantly fixing the API and working on forms all over the app.",
+        "images": ["/img/isan1.png", "/img/isan2.png"]
+    },
+    {
+        "title": "EnergyPad",
+        "stack": ["ReactJS", "ExpressJS", "Sass"],
+        "description": "Develop from the ground an app that let users track the utilities use of buildings. This app let user manually add or load from an excel file the usage of several utilities like electricity, gas and so, the amount of tenants, addresses and other information. This app let user see on a series of graphs the usages, projections and calculations based on all the information available.",
+        "images": ["/img/energypad.png"]
+    }
+]
