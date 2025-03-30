@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import { useCallback, useState } from "react";
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export const ImageSlider = (props: { images: string[] }) => {
   const [btnEvent, setBtnEvent] = useState<{
     idx: number;
@@ -46,7 +48,7 @@ export const ImageSlider = (props: { images: string[] }) => {
             <img
               data-idx={btnEvent.idx}
               className={clsx("h-65 animate-relative")}
-              src={i}
+              src={`${BASE_URL}${i}`}
               alt={i.split("/").pop()?.split(".")[0]}
             />
           </div>

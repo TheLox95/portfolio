@@ -1,15 +1,14 @@
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 
 export const DarkModeToggle = (props: {
-  initialVal: boolean;
+  val: "light" | "dark";
   onChange: (checked: boolean) => void;
 }) => {
-  const [checked, setChecked] = useState(props.initialVal);
+  const checked = props.val === "dark";
 
   const onChange: NonNullable<
     React.InputHTMLAttributes<HTMLInputElement>["onChange"]
   > = useCallback((e) => {
-    setChecked(e.target.checked);
     props.onChange(e.target.checked);
   }, []);
 
