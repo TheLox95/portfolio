@@ -20,7 +20,7 @@ export const Header = () => {
       <nav className="flex justify-between items-center h-full flex-wrap">
         <span className="w-full sm:w-auto">
           <h2 className="text-xl sm:ml-3.5 text-center sm:text-left">
-            Leo's Profolio
+            Leo's Portfolio
           </h2>
         </span>
 
